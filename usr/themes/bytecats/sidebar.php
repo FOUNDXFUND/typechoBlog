@@ -1,13 +1,13 @@
 <?php if (!defined('__TYPECHO_ROOT_DIR__')) exit; ?>
 <aside class="grid-1-4" id="secondary" role="complementary">
-    <section class="widget widget_search">
+<!--     <section class="widget widget_search">
         <h3>文章搜索</h3>
         <form id="search" method="post" action="./" role="search">
 
             <input type="text" name="s" class="text" placeholder="<?php _e('输入关键字搜索'); ?>" />
             <button type="submit" class="submit"><?php _e('搜索'); ?></button>
         </form>
-    </section>
+    </section> -->
 
 
     <?php if (!empty($this->options->sidebarBlock) && in_array('ShowCategory', $this->options->sidebarBlock)): ?>
