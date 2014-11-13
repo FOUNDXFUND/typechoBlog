@@ -41,6 +41,8 @@
             </nav>
         </div>
     </div>
+    <script type="text/javascript" src="http://tajs.qq.com/stats?sId=38526185" charset="UTF-8"></script>
+
 </header><!-- end #header -->
 <div id="body">
     <div class="container">
