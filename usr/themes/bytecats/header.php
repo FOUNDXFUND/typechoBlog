@@ -13,7 +13,7 @@
         'search'    =>  _t('包含关键字 %s 的文章'),
         'tag'       =>  _t('标签 %s 下的文章'),
         'author'    =>  _t('%s 发布的文章')
-    ), '', ' | '); ?><?php $this->options->title(); ?><?php if($this->is('index')){echo " | 专注WEB前端开发与WordPress技术分析交流"; }?></title>
+    ), '', ' | '); ?><?php $this->options->title(); ?><?php if($this->is('index')){echo " | 专注PHP开发与Web技术分析交流"; }?></title>
 
 <!-- 使用url函数转换相关路径 -->
 <link rel="stylesheet" href="<?php $this->options->themeUrl('style.css'); ?>">
@@ -41,6 +41,16 @@
             </nav>
         </div>
     </div>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-57716146-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
     <script type="text/javascript" src="http://tajs.qq.com/stats?sId=38526185" charset="UTF-8"></script>
 
 </header><!-- end #header -->
